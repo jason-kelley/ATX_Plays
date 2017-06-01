@@ -1,0 +1,50 @@
+body {
+  position: relative;
+}
+
+.flexy {
+  display: flex;
+}
+
+.logo {
+  max-height: 35px;
+}
+
+.socialIcons {
+  float: right;
+}
+
+.glyphicon {
+  font-size: 400%;
+}
+
+#leagues>div {
+  text-align: center;
+}
+
+.carousel {
+  min-height: 500px;
+}
+
+.panel {
+  border: none;
+}
+
+.modal-content {
+  padding: 2em;
+}
+
+.affiliates {
+  background-color: #E8E8E8;
+  text-align: center;
+}
+
+#member {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partner {
+  margin: 2em;
+  height: 100px;
+}
