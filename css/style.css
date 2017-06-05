@@ -10,70 +10,6 @@ body {
   max-height: 35px;
 }
 
-.jumbotron{
-background-color: #FDC8B1;
-height: 60vh;
-display: flex;
-flex-direction: row;
-align-items: center;
-}
-
-.headline {
-  display: flex;
-  justify-content: space-between;
-}
-
-.icons {
-  display: flex;
-  justify-content:space-between;
-  flex-direction: row;
-  width: 50%;
-}
-.main-story {
-  width:45%;
-}
-
-h1, .active, h3, h4 {
-	font-family: 'NexaRustSans-Black-Free';
-  color: white;
-}
-
-h2 {
-  font-family: 'NexaRustSans-Black-Free';
-}
-
-p {
-  font-family: 'Raleway', sans-serif;
-  line-height: 1.25;
-}
-
-
-#headingOne {
-  color:white;
-  display: flex;
-  height: 8em;
-  background-color: #E29C45;
-}
-
-#headingTwo {
-  color:white;
-  display: flex;
-  height: 8em;
-  background-color: #6B9362;
-}
-
-#headingThree {
-  color:white;
-  display: flex;
-  height: 8em;
-  background-color: #5D8CAE;
-}
-
-.panel-title {
-  font-size: 2em;
-  margin: auto;
-}
-
 .socialIcons {
   float: right;
 }
@@ -87,18 +23,7 @@ p {
 }
 
 .carousel {
-  background-image: url("../img/desert.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.carousel-inner > .item > img {
-  align-items: center;
-  margin: auto;
+  min-height: 500px;
 }
 
 .panel {
@@ -107,10 +32,6 @@ p {
 
 .modal-content {
   padding: 2em;
-}
-
-.shane{
-  border-radius: 100%;
 }
 
 .affiliates {
@@ -126,17 +47,4 @@ p {
 .partner {
   margin: 2em;
   height: 100px;
-}
-
-
-/*media queries*/
-
-@media (max-width:1199px) {
-  .icons {
-    display:none;
-  }
-  .main-story {
-    width: 100%;
-  }
-
 }
