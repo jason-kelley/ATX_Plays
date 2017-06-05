@@ -42,28 +42,30 @@ h2 {
   font-family: 'NexaRustSans-Black-Free';
 }
 
-li, {
+p {
   font-family: 'Raleway', sans-serif;
+  line-height: 1.25;
 }
+
 
 #headingOne {
   color:white;
   display: flex;
-  height: 5em;
+  height: 8em;
   background-color: #E29C45;
 }
 
 #headingTwo {
   color:white;
   display: flex;
-  height: 5em;
+  height: 8em;
   background-color: #6B9362;
 }
 
 #headingThree {
   color:white;
   display: flex;
-  height: 5em;
+  height: 8em;
   background-color: #5D8CAE;
 }
 
@@ -107,7 +109,7 @@ li, {
   padding: 2em;
 }
 
-.shanec{
+.shane{
   border-radius: 100%;
 }
 
@@ -132,6 +134,9 @@ li, {
 @media (max-width:1199px) {
   .icons {
     display:none;
+  }
+  .main-story {
+    width: 100%;
   }
 
 }
