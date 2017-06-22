@@ -6,8 +6,89 @@ body {
   display: flex;
 }
 
+.navbar-nav{
+  height: 7.5em;
+}
+
 .logo {
-  max-height: 35px;
+  /*border: 1px solid red;*/
+  max-height: 80px;
+  margin-left: 75%;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 4.5%;
+}
+
+.transparent{
+  background:rgba(0,0,0,.85)
+}
+
+.jumbotron{
+  background-image: url('../img/pingPong.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-story {
+  width:45%;
+}
+
+
+h1, .active, h3, h4 {
+	font-family: 'NexaRustSans-Black-Free';
+  color: white;
+}
+
+.modal-title {
+  font-family: 'NexaRustSans-Black-Free';
+  color: black !important;
+}
+
+h2 {
+  font-family: 'NexaRustSans-Black-Free';
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+}
+
+#headingOne {
+  color:white;
+  display: flex;
+  height: 8em;
+  background-color: #E29C45;
+}
+
+#headingTwo {
+  color:white;
+  display: flex;
+  height: 8em;
+  background-color: #6B9362;
+}
+
+#headingThree {
+  color:white;
+  display: flex;
+  height: 8em;
+  background-color: #5D8CAE;
+}
+
+.panel-title {
+  font-size: 2em;
+  margin: auto;
 }
 
 .socialIcons {
@@ -23,9 +104,13 @@ body {
 }
 
 .carousel {
-  min-height: 500px;
-}
-
+  background-image: url("../img/desert.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 .panel {
   border: none;
 }
